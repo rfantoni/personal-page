@@ -1,0 +1,12 @@
+# make php able in html pages
+#AddType application/x-httpd-php .html
+AddHandler application/x-httpd-php .html
+
+# enable .htpasswd
+AuthUserFile /u/rfantoni/Web/.htpasswd
+AuthType Basic
+AuthName "My Secret Page"
+
+<Files "doc.html">
+  Require valid-user
+</Files>

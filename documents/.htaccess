@@ -1,0 +1,4 @@
+AuthUserFile /u/rfantoni/Web/.htpasswd
+AuthType Basic
+AuthName "My Secret Directory"
+Require valid-user

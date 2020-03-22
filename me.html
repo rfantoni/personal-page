@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="./js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>contact | Riccardo Fantoni, Dr.</title>
+
+<link rel="icon" href="./pictures/favicon.ico" type="image/x-icon"> 
+<link rel="stylesheet" type="text/css" media="all" href="./css/style.css">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e2e2e2; background-image: url('./pictures/rough-beige-paper-texture.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "./pictures/water-drops-liquids-background-header.jpg"
+var image2 = new Image()
+image2.src = "./pictures/mc01.jpg"
+var image3 = new Image()
+image3.src = "./pictures/mc06.jpg"
+</script>
+<script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body class="page-template page-template-showcase-php custom-background single-author two-column right-sidebar">
+
+<div id="page" class="hfeed">
+	
+<header id="branding" role="banner">
+		
+<hgroup>
+	<h1 id="site-title"><span><a href="./index.html" title="Riccardo Fantoni, Dr." rel="home">Riccardo Fantoni, Dr.</a></span></h1>
+	<h2 id="site-description">University Ca' Foscari, Venice, Italy</h2>
+</hgroup>
+<style>
+.on-top {position:absolute;bottom:+10px;z-index:1;}
+.on-bottom {z-index:0;}
+</style>
+<a href="./index.html">
+<img class="on-bottom" src="./pictures/water-drops-liquids-background-header.jpg" name="slideb">
+<img id="fade" class="on-top" src="./pictures/water-drops-liquids-background-header.jpg" name="slidet">
+</a>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {   
+            document.images.slidet.src = eval("image"+step+".src");
+			document.images.slideb.src = eval("image"+step+".src");
+			$('#fade').fadeOut('slow',function(){
+            $(this).attr('src',eval("image"+step+".src")).fadeIn(2000);});
+            if(step<3)
+               	{ step++; }
+            else
+                { step=1; }
+            setTimeout("slideit()",5000);
+        }
+        slideit();
+</script>
+	
+  		<form method="get" id="searchform">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="q" id="s" placeholder="Search">
+		<input type="submit" class="submit" name="sitesearch" id="searchsubmit" value="">
+	    </form>
+
+<nav id="access" role="navigation">
+
+<h3 class="assistive-text">Main menu</h3>
+<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+
+<div class="menu-menu-1-container">
+<ul id="menu-menu-1" class="menu">
+<li id="menu-item-1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1"><a href="./index.html">home</a></li>
+<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2"><a href="./research.html">research</a>
+  <ul class="sub-menu">
+	<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="./statistical_physics.html">statistical physics</a></li>
+	<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="./classical_fluids.html">classical fluids</a></li>
+	<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="./quantum_fluids.html">quantum fluids</a></li>
+  </ul>
+</li>
+<li id="menu-item-3" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3"><a href="./publications.html">publications</a>
+  <ul class="sub-menu">
+	<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="./publications.html#publications">papers</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="./publications.html#books">books</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="./publications.html#conferences">conferences</a></li>
+	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="./theses.html">theses</a></li>
+  </ul>
+</li>
+<li id="menu-item-4" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a href="./teaching.html">teaching</a>
+  <ul class="sub-menu">
+	<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="./teaching-university.html">university</a></li>
+	<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="./teaching-school.html">school</a></li>
+  </ul>
+</li>
+<li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5"><a href="./cv.html">personal</a>
+  <ul class="sub-menu">
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="./links.html">links</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="./conferences.html">conferences links</a></li>
+	<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="./gate.html">gate</a></li>
+  </ul>
+</li>
+<li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-6"><a href="./me.html">contact</a></li>
+</ul>
+</div>
+</nav><!-- #access -->
+
+</header><!-- #branding -->
+
+	<div id="main">
+
+		<div id="primary" class="showcase">
+
+			<div id="content" role="main">
+
+				<article id="post-1" class="post-1 page type-page status-publish entry intro">
+		
+<header class="entry-header">
+	<h2 class="entry-title">contacts</h2>
+</header><!-- .entry-header -->
+
+					<div class="entry-content">
+<!-- #################################################################################################### -->
+
+<img class="wp-image-1 alignleft" src="./pictures/rfantoni.jpg" width="100" alt="me">
+<a href="https://sites.google.com/site/ricfantoni/" target="_blank">Google site</a>
+<br>
+<a href="http://www.google.com/calendar/embed?src=rfantoni3%40gmail.com&ctz=Europe/Rome" target="_blank">Google calendar</a>
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_riccardo.fantoni_1">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_riccardo.fantoni_1",
+      "participants": ["riccardo.fantoni"],
+      "imageSize": 32
+    });
+  </script>
+</div>
+
+<hr color="red">
+<img class="wp-image-1 alignright" src="./pictures/units_logo.gif" width="150" alt="units">
+<p>
+Ph. D. at <a target="_blank" href="http://www-dft.ts.infn.it/">Dipartimento di Fisica Teorica</a><br>
+<a target="_blank" href="http://www.univ.trieste.it/">Universit&agrave; di Trieste</a><br>
+Facolt&agrave; di Scienze Matematiche, Fisiche e Naturali<br>
+<br>
+Strada Costiera 11<br>
+I-34014 Trieste<br>
+Italia<br>
+</p>
+
+<table style="font-size: small; border-top: 0 !important; width: 30% !important; line-height: 4px;">
+ <tr>
+<td>Cell. phone: </td><td>+393384570334</td>
+ </tr><tr>
+<td>Phone: </td><td>+39402240282</td>
+ </tr><tr>
+<td>Fax: </td><td>+3940224601</td>
+ </tr><tr>
+<td>e-mail-1: </td><td><a href="mailto: rfantoni@ts.infn.it">rfantoni@ts.infn.it</a></td>
+ </tr><tr>
+<td>e-mail-2: </td><td><a href="mailto: rfantoni3@gmail.com">rfantoni3@gmail.com</a></td>
+ </tr>
+</table>
+<p>
+&quot;Cultore della Materia&quot; at <a target="_blank" href="http://www.unive.it/dsmn">Dipartimento di Scienze Molecolari e Nanosistemi</a><br>
+<a target="_blank" href="http://www.unive.it/nqcontent.cfm?a_id=1">Universit&agrave; Ca' Foscari Venezia</a><br>
+<br>
+Calle Larga S. Marta DD2137<br>
+I-30123 Venezia<br>
+Italia
+</p>
+<hr color="red">
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      // Load Charts and the corechart package.
+      google.charts.load('current', {'packages':['calendar','corechart']});
+
+      google.charts.setOnLoadCallback(drawChart1);
+      google.charts.setOnLoadCallback(drawChart2);
+	  
+      function drawChart1() {
+       var dataTable = new google.visualization.DataTable();
+       dataTable.addColumn({ type: 'date', id: 'Date' });
+       dataTable.addColumn({ type: 'number', id: 'Won/Loss' });
+       dataTable.addRows([
+         [ new Date(2017, 7, 30), -10 ],
+	     [ new Date(2018, 7, 30), -10 ],
+		 [ new Date(2017, 3, 21), +10 ],
+	     [ new Date(2018, 3, 21), +10 ],
+       ]);
+
+       var options = {
+         title: "Calendar",
+         height: 300,
+		 calendar: { cellSize: 14 },
+       };
+	   
+       var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
+       chart.draw(dataTable, options);
+      }
+   
+      function drawChart2() {
+       var data = google.visualization.arrayToDataTable([
+         ['Topic', '# publications'],
+         ['Exact results',     16],
+         ['Soft matter',       32],
+         ['Condensed matter',  15]
+       ]);
+
+       var options = {
+         title: 'Publications',
+         pieHole: 0.6,
+		 titleTextStyle: { color: '#808080',
+		                   fontName: 'Arial, Helvetica, sans-serif',
+                           fontSize: '26',
+						   bold: '0'},
+		 legend: {position: 'bottom', textStyle: { color: '#808080',
+                           fontName: 'Arial, Helvetica, sans-serif',
+                           fontSize: '20',
+                           bold: '0' }}				   
+       };
+
+       var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+       chart.draw(data, options);
+      }   
+    </script>
+
+<br>
+<div id="calendar_basic" style="width: 100%; height: 350px;"></div>
+<hr>
+<div id="donutchart" style="width: 100%; height: 500px;"></div>	
+<hr>
+<br>
+
+<style>
+.t {width: 100% !important;}
+</style>
+<table class="t">
+  <tr >
+    <td align="center"><a target="_blank" href="http://www.unipi.it/"><img class="wp-image-1" src="pictures/unipi.jpg" width="100" alt="unipi"></a></td>
+    <td align="center"><a target="_blank" href="http://illinois.edu/"><img class="wp-image-1" src="pictures/uiuc.jpg" width="100" alt="uiuc"></a></td>
+    <td align="center"><a target="_blank" href="http://www.unive.it/nqcontent.cfm?a_id=1"><img class="wp-image-1" src="pictures/unive_logo.gif" width="100" alt="unive"></a></td>
+	<td align="center"><a target="_blank" href="http://www.sun.ac.za/"><img class="wp-image-1" src="pictures/us_logo.jpg" width="100" alt="stellenbosch"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a target="_blank" href="http://www.ncsa.illinois.edu/"><img class="wp-image-1" src="pictures/ncsa_vertical.jpg" width="100" alt="ncsa"></a></td>
+	<td align="center"><a target="_blank" href="http://nithep.ac.za/"><img class="wp-image-1" src="pictures/nithep_logo.jpg" width="100" alt="nithep"></a></td>
+	<td align="center"><a target="_blank" href="http://www.chpc.ac.za/"><img class="wp-image-1" src="pictures/chpc_logo.jpg" width="100" alt="chpc"></a></td>
+    <td align="center"><a target="_blank" href="http://www.cineca.it/"><img class="wp-image-1" src="pictures/logoISCRA115.jpg" width="100" alt="iscra"></a></td>
+  </tr>
+</table>  
+<br><br>
+<h2>Send e-mail to rfantoni@ts.infn.it:</h2>
+
+<form action="MAILTO:rfantoni@ts.infn.it?subject=from RF homepage" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<textarea name="comment" value="your comment" cols="1" rows="10" wrap="virtual"></textarea><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+<!-- #################################################################################################### -->
+					</div><!-- .entry-content -->
+					
+				</article><!-- #post-1 -->
+	
+<section class="recent-posts">
+<h1 class="showcase-heading">Recent Posts</h1>
+</section><!-- .recent-posts -->
+
+<div class="widget-area" role="complementary">
+<?php
+$last_mod = filemtime("me.html");
+print("Last Edited on ");
+print(date("m/j/y h:i", $last_mod));
+?>
+</div><!-- .widget-area -->
+
+			</div><!-- #content -->
+			
+		</div><!-- #primary -->
+		
+	</div><!-- #main -->
+
+<footer id="colophon" role="contentinfo">
+	<div id="site-generator">
+	<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+	</div>
+	
+<script>
+  (function() {
+    var cx = '002501637422361010891:4giwahnlpe8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchresults-only></gcse:searchresults-only>
+
+</footer><!-- #colophon -->
+
+</div><!-- #page -->
+
+
+</body>
+</html>
+
