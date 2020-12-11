@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="./js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>publications | Riccardo Fantoni, Dr.</title>
+
+<link rel="icon" href="./pictures/favicon.ico" type="image/x-icon"> 
+<link rel="stylesheet" type="text/css" media="all" href="./css/style.css">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e2e2e2; background-image: url('./pictures/rough-beige-paper-texture.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "./pictures/water-drops-liquids-background-header.jpg"
+var image2 = new Image()
+image2.src = "./pictures/mc01.jpg"
+var image3 = new Image()
+image3.src = "./pictures/mc06.jpg"
+</script>
+<script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body class="page-template page-template-showcase-php custom-background single-author two-column right-sidebar">
+
+<div id="page" class="hfeed">
+	
+<header id="branding" role="banner">
+		
+<hgroup>
+	<h1 id="site-title"><span><a href="./index.html" title="Riccardo Fantoni, Dr." rel="home">Riccardo Fantoni, Dr.</a></span></h1>
+	<h2 id="site-description">University Ca' Foscari, Venice, Italy</h2>
+</hgroup>
+<a href="./index.html"><img id="fade" src="./pictures/water-drops-liquids-background-header.jpg" name="slide"></a>
+<script type="text/javascript">
+		var jq = $.noConflict();
+        var step=1;
+        function slideit()
+        {	
+			jq('#fade').fadeOut('slow',function(){
+            jq(this).attr('src',eval("image"+step+".src")).fadeIn('slow');});
+            if(step<3)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",5000);
+        }
+        slideit();
+</script>
+	
+  		<form method="get" id="searchform" action="http://www.google.com/search">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="q" id="s" placeholder="Search">
+		<input type="submit" class="submit" name="sitesearch" id="searchsubmit" value="">
+	    </form>
+
+<nav id="access" role="navigation">
+
+<h3 class="assistive-text">Main menu</h3>
+<div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+<div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+
+<div class="menu-menu-1-container">
+<ul id="menu-menu-1" class="menu">
+<li id="menu-item-1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1"><a href="./index.html">home</a></li>
+<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2"><a href="./research.html">research</a>
+  <ul class="sub-menu">
+	<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="./statistical_physics.html">statistical physics</a></li>
+	<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="./classical_fluids.html">classical fluids</a></li>
+	<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="./quantum_fluids.html">quantum fluids</a></li>
+  </ul>
+</li>
+<li id="menu-item-3" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-item current_page_item menu-item-3"><a href="./publications.html">publications</a>
+  <ul class="sub-menu">
+	<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="./publications.html#publications">papers</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="./publications.html#books">books</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="./publications.html#conferences">conferences</a></li>
+	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="./theses.html">theses</a></li>
+  </ul>
+</li>
+<li id="menu-item-4" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a href="./teaching.html">teaching</a></li>
+<li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5"><a href="./cv.html">personal</a>
+  <ul class="sub-menu">
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="./links.html">links</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="./conferences.html">conferences links</a></li>
+	<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="./gate.html">gate</a></li>
+  </ul>
+</li>
+<li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6"><a href="./me.html">contact</a></li>
+</ul>
+</div>
+</nav><!-- #access -->
+
+</header><!-- #branding -->
+
+	<div id="main">
+
+		<div id="primary" class="showcase">
+
+			<div id="content" role="main">
+
+				<article id="post-1" class="post-1 page type-page status-publish entry intro">
+		
+<header class="entry-header">
+	<h2 class="entry-title">publications</h2>
+</header><!-- .entry-header -->
+
+					<div class="entry-content">
+<!-- #################################################################################################### -->
+
+
+<a name="publications"></a>
+<h2>List of publications (chronological order)</h2>
+<!--
+<style>
+a.year:link{color: white; background: radial-gradient(#1982d1 40%,white); font-size:20px;}
+a.year:visited{color: white; background: radial-gradient(#1982d1 40%,white); font-size:20px;}
+a.year:hover{color: white; background: radial-gradient(#1982d1 40%,white); font-size:18px;}
+</style>
+-->
+<style>
+a.year:link{color: white; background: #1982d1; font-size:20px;}
+a.year:visited{color: white; background: #1982d1; font-size:20px;}
+a.year:hover{color: white; background: #1982d1; font-size:18px;}
+</style>
+YEAR
+<a class=year href="#y1995">1995</a>
+<a class=year href="#y1996">1996</a>
+<a class=year href="#y2003">2003</a>
+<a class=year href="#y2004">2004</a>
+<a class=year href="#y2005">2005</a>
+<a class=year href="#y2006">2006</a>
+<a class=year href="#y2007">2007</a>
+<a class=year href="#y2008">2008</a>
+<a class=year href="#y2009">2009</a>
+<a class=year href="#y2010">2010</a>
+<a class=year href="#y2011">2011</a>
+<a class=year href="#y2012">2012</a>
+<a class=year href="#y2013">2013</a>
+<a class=year href="#y2014">2014</a>
+<a class=year href="#y2015">2015</a>
+<a class=year href="#y2016">2016</a>
+
+<br>
+<style>
+.tdr {text-align:right}
+.tdl {text-align:left}
+.tdc {text-align:center}
+</style>
+<div align="center">
+<table width="40%" border="2px" cellpadding="2px" cellspacing="4px" style="border-color: black; border-width:4px; border-style: solid; background-color: transparent;">
+<tr>
+<td style="border-color: #1982d1 #1982d1 #1982d1 #1982d1; border-style: hidden; border-width:8px;" class="tdc" width=300>
+<span id="badgeCont879263" style="width:126px; float:left;"><script src='http://labs.researcherid.com/mashlets?el=badgeCont879263&mashlet=badge&showTitle=false&className=a&rid=E-6633-2010'></script></span>
+<div style="line-height:80%;"><br></div>
+<a target="_blank" title="researcher id" href="http://www.researcherid.com/rid/E-6633-2010"><img src="pictures/researchid.png" width="50" alt=""></a>
+<a target="_blank" title="scopus" href="https://www.scopus.com/authid/detail.url?authorId=8965184600"><img src="pictures/scopus.png" width="50" alt=""></a>
+<a target="_blank" title="google scholar" href="http://scholar.google.it/citations?hl=it&amp;user=nbPzo_wAAAAJ&amp;view_op=list_works"><img src="pictures/google.png" width="50" alt=""></a>
+<a target="_blank" title="microsoft academic" href="http://academic.research.microsoft.com/Author/56215459"><img src="pictures/microsoft_academic.jpg" width="50" alt=""></a>
+<a target="_blank" title="orcid" href="http://orcid.org/0000-0002-5950-8648"><img src="pictures/orcid.png" width="50" alt=""></a>
+<a target="_blank" title="mendeley" href="http://www.mendeley.com/profiles/riccardo-fantoni/"><img src="pictures/mendeley.jpg" width="50" alt=""></a>
+<a target="_blank" title="research gate" href="http://www.researchgate.net/profile/Riccardo_Fantoni/"><img src="pictures/researchgate.png" width="50" alt=""></a>
+</td>
+<td style="border-color: #1982d1 #1982d1 #1982d1 #1982d1; border-style: hidden; border-width:8px;" class="tdc" width=120>
+<div style="line-height:100%;"><br></div>
+<a target="_blank" title="arxiv archive" href="http://arxiv.org/a/fantoni_r_1.atom"><img src="pictures/arxiv.jpg" width="50" alt=""></a>
+</td>
+</tr>
+</table>
+</div>
+
+<hr>
+<div align="center"><em>Copyright notice: The articles below may be downloaded for personal use only. Any other use requires  prior permission of the author and the publisher</em></div>
+<hr>
+<div align="justify">NOTE: Articles with a (*) have some misprint in the published version which has been corrected in jellow on the attached pdf file. Click on the title of the paper to get the <strong>PDF</strong> file. Click on the journal reference to open the <strong>DOI</strong> paper page. Click on the archive reference to open the <strong>ArXiv</strong> paper page.</div>
+<hr>
+BibTeX file (<a href="publications/rf.bib" target="_blank">rf.bib</a>); use \cite{Fantonikk&alpha;} where kk are the last two digits of the year and &alpha; a letter  
+<hr>
+<br>
+
+<h2><a name="y1995">year 1995</a></h2>
+
+<p>
+1. <strong>Fantoni R.</strong> and Tosi M.P.,
+<a target="_blank" href="http://dx.doi.org/10.1007/BF02451594">Nuovo Cimento <strong>17D</strong>, 155 (1995)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-NC1995.pdf">Decay of correlations and related sum rules in a layered classical plasma</a></em>&quot;<br>
+2. <strong>Fantoni R.</strong> and Tosi M.P.,
+<a target="_blank" href="http://dx.doi.org/10.1007/BF02454131">Nuovo Cimento <strong>17D</strong>, 1165 (1995)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-NC1995b.pdf">Coordinate space form of interacting reference response function of d-dimensional jellium</a></em>&quot;
+</p>
+
+<h2><a name="y1996">year 1996</a></h2>
+
+<p>
+3. <strong>Fantoni R.</strong> and Tosi M.P.,
+<a target="_blank" href="http://dx.doi.org/10.1016/0921-4526(95)00451-3">Physica B <strong>217</strong>, 35 (1996)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PB1996.pdf">Some properties of short-range correlations for electrons in quantum wires</a></em>&quot;
+</p>
+
+<h2><a name="y2003">year 2003</a></h2>
+
+<p>
+4. <strong>Fantoni R.</strong>, Jancovici B., and T&eacute;llez G., <a target="_blank" href="http://dx.doi.org/10.1023/A:1023671419021">J. Stat. Phys. <strong>112</strong>, 27 (2003)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JSP2003.pdf">Pressures for a One-Component Plasma on a Pseudosphere</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0207525">cond-mat/0207525</a>)<br>
+5. <strong>Fantoni R.</strong> and Pastore G., <a target="_blank" href="http://dx.doi.org/10.1063/1.1590642">J. Chem. Phys. <strong>119</strong>, 3810 (2003)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2003.pdf">Generating functionals, consistency, and uniqueness in the integral equation theory of liquids</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0304449">cond-mat/0304449</a>)<br>
+6. <strong>Fantoni R.</strong> and Pastore G., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.68.046104">Phys. Rev. E <strong>68</strong>, 046104 (2003)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PRE2003.pdf">Stability of the iterative solutions of integral equations as one phase freezing criterion</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0305531">cond-mat/0305531</a>)
+</p>
+
+<h2><a name="y2004">year 2004</a></h2>
+
+<p>
+7. <strong>Fantoni R.</strong> and Pastore G., <a target="_blank" href="http://dx.doi.org/10.1016/j.physa.2003.10.012">Physica A <strong>332</strong>, 349 (2004)</a>, (*)<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PA2004.pdf">Direct correlation functions of the Widom-Rowlinson model</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0308433">cond-mat/0308433</a>)<br>
+8. <strong>Fantoni R.</strong> and Pastore G., <a target="_blank" href="http://dx.doi.org/10.1063/1.1739392">J. Chem. Phys. <strong>120</strong>, 10681 (2004)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2004.pdf">Computer simulation study of the closure relations in hard sphere fluids</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0402491">cond-mat/0402491</a>)
+</p>
+
+<h2><a name="y2005">year 2005</a></h2>
+
+<p>
+9. <strong>Fantoni R.</strong>, Gazzillo D., and Giacometti A.,<a target="_blank" href="http://dx.doi.org/10.1063/1.1831275"> J. Chem. Phys. <strong>122</strong>, 034901 (2005)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2005.pdf">Stability boundaries, percolation threshold, and two phase coexistence for polydisperse fluids of adhesive colloidal particles</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0410618">cond-mat/0410618</a>)<br>
+10. <strong>Fantoni R.</strong>, Gazzillo D., and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.72.011503">Phys. Rev. E. <strong>72</strong>, 011503 (2005)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PRE2005.pdf">Thermodynamic instabilities of a binary mixture of sticky hard spheres</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0505172">cond-mat/0505172</a>)
+</p>
+
+<h2><a name="y2006">year 2006</a></h2>
+
+<p>
+11. Gazzillo D., Giacometti A., <strong>Fantoni R.</strong>, and Sollich P., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.74.051407">Phys. Rev. E. <strong>74</strong>, 051407 (2006)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Gazzillo-PRE2006.pdf">Multicomponent adhesive hard sphere models and short-ranged attractive interactions in colloidal or micellar solutions</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0611175">cond-mat/0611175</a>)<br>
+12. Gazzillo D., <strong>Fantoni R.</strong>, and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1080/00268970601050892">Mol. Phys. <strong>104</strong>, 3451 (2006)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Gazzillo-MolPhys2006.pdf">Phase behavior of polydisperse sticky hard spheres: Analytical solutions and perturbation theory</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0611177">cond-mat/0611177</a>)<br>
+13. <strong>Fantoni R.</strong>, Gazzillo D., Giacometti A., and Sollich P., <a target="_blank" href="http://dx.doi.org/10.1063/1.2358136">J. Chem. Phys. <strong>125</strong>, 164504 (2006)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2006.pdf">Phase behavior of weakly polydisperse sticky hard spheres: Perturbation theory for the Percus-Yevick solution</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/cond-mat/0608714">cond-mat/0608714</a>)
+</p>
+
+<h2><a name="y2007">year 2007</a></h2>
+
+<p>
+14. <strong>Fantoni R.</strong>, Gazzillo D., Giacometti A., Miller M. A., and Pastore G.,<a target="_blank" href="http://dx.doi.org/10.1063/1.2805066"> J. Chem. Phys. <strong>127</strong>, 234507 (2007)</a>, (*) <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2007.pdf">Patchy sticky hard spheres: Analytical study and Monte Carlo simulations</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/0710.2356">arXiv:0710.2356</a>)
+</p>
+
+<h2><a name="y2008">year 2008</a></h2>
+
+<p>
+15. Gazzillo D., <strong>Fantoni R.</strong>, and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.78.021201">Phys. Rev. E <strong>78</strong>, 021201 (2008)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Gazzillo-PRE2008.pdf">Fluids of spherical molecules with dipolarlike nonuniform adhesion: An analytically solvable anisotropic model</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/0807.0384">arXiv:0807.0384</a>)<br>
+16. Santos A., <strong>Fantoni R.</strong>, and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.77.051206">Phys. Rev. E <strong>77</strong>, 051206 (2008)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Santos-PRE2008.pdf">Penetrable Square-Well fluids: Exact results in one dimension</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/0804.3703">arXiv:0804.3703</a>) Featured in the <a target="_blank" href="http://www.sklogwiki.org/SklogWiki/index.php/Penetrable_square_well_model">SkLogWiki</a><br>
+17. <strong>Fantoni R.</strong>, and T&eacute;llez G., <a target="_blank" href="http://dx.doi.org/10.1007/s10955-008-9616-x">J. Stat. Phys. <strong>133</strong>, 449 (2008)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JSP2008.pdf">Two dimensional one-component plasma on a Flamm's paraboloid</a></em>&quot;<br>
+(<a target="_blank" href="http://lanl.arxiv.org/abs/0806.1075">arXiv:0806.1075</a>)
+</p>
+
+<h2><a name="y2009">year 2009</a></h2>
+
+<p>
+18. <strong>Fantoni R.</strong>, Giacometti A., Malijevsk&yacute; A., and Santos A., <a target="_blank" href="http://dx.doi.org/10.1063/1.3236515">J. Chem. Phys. <strong>131</strong>, 124106 (2009)</a>, <br>
+&quot;<a target="_blank" href="publications/Fantoni-JCP2009.pdf"><em>Penetrable-Square-Well fluids: Analytical study and Monte Carlo simulations</em></a>&quot;<br>
+(<a target="_blank" href="http://xxx.lanl.gov/abs/0907.5559">arXiv:0907.5559</a>) Featured in the <a target="_blank" href="http://www.sklogwiki.org/SklogWiki/index.php/Penetrable_square_well_model">SkLogWiki</a><br>
+19. Gazzillo D., <strong>Fantoni R.</strong>, and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.80.061207">Phys. Rev. E. <strong>80</strong>, 061207 (2009)</a>, <br>
+&quot;<a target="_blank" href="publications/Gazzillo-PRE2009.pdf"><em>Local orientational ordering in fluids of spherical molecules with dipolar-like anisotropic adhesion</em></a>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/0912.1801">arXiv:0912.1801</a>) <br>
+20. Santos A., <strong>Fantoni R.</strong>, and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1063/1.3265991">J. Chem. Phys. <strong>131</strong>, 181105 (2009)</a>, <br>
+&quot;<a target="_blank" href="publications/Santos-JCP2009.pdf"><em>Thermodynamic consistency of energy and virial routes: An exact proof within the linearized Debye-H&uuml;ckel theory</em></a>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/0910.1670">arXiv:0910.1670</a>) Featured among the Top 14 most downloaded JCP article in   <a target="_blank" href="http://jcp.aip.org/features/most_downloaded?month=11&year=2009" target="_blank">November 2009</a>
+</p>
+
+<h2><a name="y2010">year 2010</a></h2>
+
+<p>
+21. <strong>Fantoni R.</strong>, Giacometti A., Malijevsk&yacute; A., and Santos A., <a target="_blank" href="http://dx.doi.org/10.1063/1.3455330">J. Chem. Phys. <strong>133</strong>, 024101 (2010)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2010.pdf">A Numerical Test of a High-Penetrability Approximation for the One-Dimensional Penetrable-Square-Well Model</a></em>&quot;<br>
+(<a target="_blank" href="http://xxx.lanl.gov/abs/1005.5485">arXiv:1005.5485</a> )<br>
+22. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1088/1742-5468/2010/07/P07030">J. Stat. Mech. P07030 (2010)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JSTAT2010.pdf">Non existence of a phase transition for the Penetrable Square Well model in one dimension</a></em>&quot;<br>
+(<a target="_blank" href="http://xxx.lanl.gov/abs/1007.1513">arXiv:1007.1513</a> ) Featured in the <a target="_blank" href="http://www.sklogwiki.org/SklogWiki/index.php/Penetrable_square_well_model">SkLogWiki</a>
+</p>
+
+<h2><a name="y2011">year 2011</a></h2>
+
+<p>
+23. <strong>Fantoni R.</strong>, Giacometti A., Sciortino F., and Pastore G., <a target="_blank" href="http://dx.doi.org/10.1039/C0SM00995D">Soft Matter <strong>7</strong>, 2419 (2011)</a>, (*) <br>
+&quot;<a target="_blank" href="publications/Fantoni-SM2011.pdf"><em>Cluster theory of Janus particles</em></a>&quot;, <a target="_blank" href="publications/errata-SM2011.pdf">erratum</a><br>
+(<a target="_blank" href="http://xxx.lanl.gov/abs/1012.1820" title="Abstract">arXiv:1012.1820</a>) Featured among the Top 10 most downloaded SM articles in February 2011 <a target="_blank" href="http://blogs.rsc.org/sm/2011/02/">RSC Blog</a> <a target="_blank" href="http://blogs.rsc.org/sm/2011/03/28/top-ten-most-read-soft-matter-articles-in-february/">RSC Blog</a><br>
+24. <strong>Fantoni R.</strong>, Malijevsk&yacute; A., Santos A., and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1209/0295-5075/93/26002">Europhys. Lett. <strong>93</strong>, 26002 (2011)</a>, <br>
+&quot;<a target="_blank" href="publications/Fantoni-EPL2011.pdf"><em>Phase diagram of the penetrable square well-model</em></a>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1101.0708">arXiv:1101.0708</a>) Featured in the <a target="_blank" href="http://www.sklogwiki.org/SklogWiki/index.php/Penetrable_square_well_model">SkLogWiki</a><br>
+25. <strong>Fantoni R.</strong> and  M&uuml;ller-Nedebock K. K., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.84.011808">Phys. Rev. E <strong>84</strong>, 011808 (2011)</a>, <br>
+&quot;<a target="_blank" href="publications/Fantoni-PRE2011.pdf"><em>Field theoretical approach to a dense polymer with an ideal binary mixture of clustering centers</em></a>&quot;<br>
+(<a target="_blank" href="http://xxx.lanl.gov/abs/1106.6076" title="Abstract">arXiv:1106.6076</a>)<br>
+26. <strong>Fantoni R.</strong>, Malijevsk&yacute; A., Santos A., and Giacometti A., <a target="_blank" href="http://dx.doi.org/10.1080/00268976.2011.597357">Mol. Phys. <strong>109</strong>, 2723 (2011)</a>, <br>
+&quot;<a target="_blank" href="publications/Fantoni-MolPhys2011.pdf"><em>The penetrable square-well model: Extensive versus non-extensive phases</em></a>&quot;<br>
+(<a target="_blank" href="http://xxx.lanl.gov/abs/1106.1750" title="Abstract">arXiv:1106.1750</a>) Featured in the  <a target="_blank" href="http://www.sklogwiki.org/SklogWiki/index.php/Penetrable_square_well_model">SkLogWiki</a><br>
+27. <strong>Fantoni R.</strong> and Santos A., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.84.041201">Phys. Rev. E <strong>84</strong>, 041201 (2011)</a>, (*)<br>
+&quot;<a target="_blank" href="publications/Fantoni-PRE2011b.pdf"><em>Nonadditive hard-sphere fluid mixtures. A simple analytical theory</em></a>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1107.4703" title="Abstract">arXiv:1107.4703</a>) <a target="_blank" href="http://link.aps.org/supplemental/10.1103/PhysRevE.84.041201" target="_blank">Supplemental material</a>. 
+</p>
+
+<h2><a name="y2012">year 2012</a></h2>
+
+<p>
+28. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1140/epjb/e2012-20820-1">Eur. Phys. J. B <strong>85</strong>, 108 (2012)</a>,<br>
+&quot;<a target="_blank" href="publications/Fantoni-EPJB2012.pdf"><em>A cluster theory for a Janus fluid</em></a>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1201.6256">arXiv:1201.6256</a>)<br>
+29. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1088/1742-5468/2012/04/P04015">J. Stat. Mech. P04015 (2012)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JSM2012.pdf">Two component plasma in a Flamm's paraboloid</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1204.0624">arXiv:1204.0624</a>)<br>
+30. <strong>Fantoni R.</strong>, Salari J. W. O., and Klumperman B., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.85.061404">Phys. Rev. E <strong>85</strong>, 061404 (2012)</a>, <br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PRE2012.pdf">The structure of colloidosomes with tunable particle density: Simulation vs experiment</a></em>&quot;, <a target="_blank" href="publications/summary-PRE2012.pdf">summary</a><br>
+(<a target="_blank" href="http://arxiv.org/abs/1205.1743">arXiv:1205.1743</a>)<br>
+31. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevB.86.144304">Phys. Rev. B <strong>86</strong>, 144304 (2012)</a>, (*)<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PRB2012.pdf">Localization of acoustic polarons at low temperatures: A path integral Monte Carlo approach</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1209.5975">arXiv:1209.5975</a>)<br>
+32. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1088/1742-5468/2012/10/P10024">J. Stat. Mech. P10024 (2012)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JSM2012b.pdf">The density of a fluid on a curved surface</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1210.0392">arXiv:1210.0392</a>)
+</p>
+  
+<h2><a name="y2013">year 2013</a></h2>
+
+<p>
+33. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1016/j.physb.2012.12.032">Physica B <strong>412</strong>, 112 (2013)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PB2013.pdf">Low temperature acoustic polaron localization</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1212.6739">arXiv:1212.6739</a>)<br>
+34. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1016/j.ssc.2013.01.028">Solid State Communications <strong>159</strong>, 106 (2013)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-SSC2013.pdf">Hellmann and Feynman theorem versus diffusion Monte Carlo experiment</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1301.6827">arXiv:1301.6827</a>)<br>
+35. Maestre M. A. G., <strong>Fantoni R.</strong>, Giacometti A., and Santos A., <a target="_blank" href="http://dx.doi.org/10.1063/1.4793626">J. Chem. Phys. <strong>138</strong>, 094904 (2013)</a>, (*)<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2013-corr.pdf">Janus fluid with fixed patch orientations: Theory and simulations</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1212.5540v2">arXiv:1212.5540</a>)<br>
+36. <strong>Fantoni R.</strong> and Santos A.,  <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.87.042102">Phys. Rev. E <strong>87</strong>, 042102 (2013)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PRE2013.pdf">Multicomponent fluid of nonadditive hard spheres near a wall</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1302.0525v2">arXiv:1302.0525</a>)<br>
+37. <strong>Fantoni R.</strong> and  Pastore G., <a target="_blank" href="http://dx.doi.org/10.1209/0295-5075/101/46003">Europhys. Lett. <strong>101</strong>, 46003 (2013)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-EPL2013.pdf">The restricted primitive model of ionic fluids with nonadditive diameters</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1302.2473">arXiv:1302.2473</a>)<br>
+38. <strong>Fantoni R.</strong> and  Pastore G., <a target="_blank" href="http://dx.doi.org/10.1103/PhysRevE.87.052303">Phys. Rev. E <strong>87</strong>, 052303 (2013)</a>, (*)<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-PRE2013b.pdf">Monte Carlo simulation of the nonadditive restricted primitive model of ionic fluids: Phase diagram and clustering</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1304.6757v2">arXiv:1304.6757</a>) Featured in the <a target="_blank" href="http://pre.aps.org/kaleidoscope/pre/87/5/052303">Kaleidoscope</a> of PRE.<br>
+39. <strong>Fantoni R.</strong>, <a target="_blank" href="http://dx.doi.org/10.1140/epjb/e2013-40204-3">Eur. Phys. J. B <strong>86</strong>, 286 (2013)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-EPJB2013.pdf">Radial distribution function in a Diffusion Monte Carlo simulation of a Fermion fluid between the ideal gas and the Jellium model</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1304.7298">arXiv:1304.7298</a>)<br>
+40. <strong>Fantoni R.</strong>, Giacometti A., Maestre M. A. G., and Santos A., <a target="_blank" href="http://dx.doi.org/10.1063/1.4827861">J. Chem. Phys. <strong>139</strong>, 174902 (2013)</a>,<br>
+&quot;<em><a target="_blank" href="publications/Fantoni-JCP2013b.pdf">Phase diagrams of Janus fluids with up-down constrained orientations</a></em>&quot; <br>
+(<a target="_blank" href="http://arxiv.org/abs/1310.5044">arXiv:1310.5044</a>)
+</p>
+
+<h2><a name="y2014">year 2014</a></h2>
+
+<p>
+41. <strong>Fantoni R.</strong> and Santos A., <a href="http://dx.doi.org/10.1063/1.4884353" target="_blank">J. Chem. Phys. <strong>140</strong>, 244513 (2014)</a>,<br>
+&quot;<em><a href="publications/Fantoni-JCP2014.pdf" target="_blank">Depletion force in the infinite-dilution limit in a solvent of nonadditive hard spheres</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1404.2039">arXiv:1404.2039</a>)<br>
+42. <strong>Fantoni R.</strong> and Pastore G., <a href="http://dx.doi.org/10.1063/1.4892878" target="_blank">J. Chem. Phys. <strong>141</strong>, 074108 (2014)</a>,<br>
+&quot;<em><a href="publications/Fantoni-JCP2014b.pdf" target="_blank">Wertheim and Bjerrum-Tani-Henderson theories for associating fluids: A critical assessment</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1408.0031">arXiv:1408.0031</a>)<br>
+43. <strong>Fantoni R.</strong>, <a href="http://dx.doi.org/10.1103/PhysRevE.90.020102" target="_blank">Phys. Rev. E <strong>90</strong>, 020102(R) (2014)</a>, (*)<br>
+&quot;<em><a href="publications/Fantoni-PRE2014.pdf" target="_blank">Gas-liquid coexistence for the bosons square-well fluid and the <sup>4</sup>He binodal anomaly</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1408.0065">arXiv:1408.0065</a>)<br>
+44. <strong>Fantoni R.</strong> and  Moroni S., <a href="http://dx.doi.org/10.1063/1.4895974" target="_blank">J. Chem. Phys. <strong>141</strong>, 114110 (2014)</a>,<br>
+&quot;<em><a href="publications/Fantoni-JCP2014c.pdf" target="_blank">Quantum Gibbs ensemble Monte Carlo</a></em>&quot;<br>
+(<a target="_blank" href="http://arxiv.org/abs/1408.5640">arXiv:1408.5640</a>)<br>
+</p>
+
+<h2><a name="y2015">year 2015</a></h2>
+
+<p>
+45. <strong>Fantoni R.</strong> and Pastore G., <a href="http://dx.doi.org/10.1080/00268976.2015.1061150" target="_blank">Mol. Phys. <strong>118</strong>, 2593 (2015)</a>,<br>
+&quot;<em><a href="publications/Fantoni-MolPhys2015.pdf" target="_blank">Wertheim perturbation theory: Thermodynamics and structure of patchy colloids</a></em>&quot;<br>
+(<a href="http://arxiv.org/abs/1505.06753" target="_blank">arXiv:1505.06753</a>)<br>
+46. <strong>Fantoni R.</strong>, Giacometti A., and Santos A., <a href="http://dx.doi.org/10.1063/1.4922263" target="_blank">J. Chem. Phys. <strong>142</strong>, 224905 (2015)</a>,<br>
+&quot;<em><a href="publications/Fantoni-JCP2015.pdf" target="_blank">Bridging and depletion mechanisms in colloid-colloid effective interactions: A reentrant phase diagram</a></em>&quot;<br>
+(<a href="http://arxiv.org/abs/1503.04714" target="_blank">arXiv:1503.04714</a>)<br>
+47. <strong>Fantoni R.</strong>, <a href="http://dx.doi.org/10.1103/PhysRevE.92.012133" target="_blank">Phys. Rev. E <strong>92</strong>, 012133 (2015)</a>,<br>
+&quot;<em><a href="publications/Fantoni-PRE2015.pdf" target="_blank">Two-phase coexistence for hydrogen-helium mixtures</a></em>&quot;<br>
+(<a href="http://arxiv.org/abs/1507.01809" target="_blank">arXiv:1507.01809</a>)<br>
+</p>
+
+<h2><a name="y2016">year 2016</a></h2>
+48. <strong>Fantoni R.</strong> and Alastuey A., J. Stat. Phys. in preparation (2016),<br>
+&quot;<em>The moment sum-rules for ionic liquids at criticality</em>&quot;<br>
+(arXiv:????.????)<br>
+49. <strong>Fantoni R.</strong>, Phys. Rev. E in preparation (2016),<br>
+&quot;<em>The Square-Shoulder-Asakura-Oosawa model</em>&quot;<br>
+(arXiv:????.????)<br>
+50. <strong>Fantoni R.</strong>, Phys. Rev. Lett. in preparation (2016),<br>
+&quot;<em>Quantum glasses in Monte Carlo simulations</em>&quot;<br>
+(arXiv:????.????)<br>
+51. <strong>Fantoni R.</strong>, Gori-Giorgi P., Moroni S., and Bachelet G. B., Phys. Rev. B in preparation (2016),<br>
+&quot;<em>Correlation energy and spin polarization in the 3D electron gas</em>&quot;<br>
+(arXiv:????.????)<br>
+
+
+
+
+
+<hr>
+<a target="_blank" name="conferences"></a>
+<h2>Conferences attended (chronological order)</h2>
+<br>
+
+<h2>year 2005</h2>
+
+<p>&quot;6th Liquid Matter Conference&quot; (Utrecht, the Netherlands, 2-6 July). Poster on pubblications (9) and (10).</p>
+
+<h2>year 2006</h2>
+
+<p>&quot;31st Conference of the Middle European Cooperation in Statistical Physics&quot; (Primosten, Croatia, 23-26 April). Poster on publication (10).</p>
+
+<h2>year 2007</h2>
+
+<p>&quot;Statphys23&quot; (Genova, Italy, 9-13 July). Poster on publications (14) and (15).<br>
+&quot;Fluid phase behaviour and critical phenomena from liquid state theories and simulations&quot; (CECAM, Lyon, France, 12 July). Invited speaker on publications (14) and (15).</p>
+
+<h2>year 2008</h2>
+
+<p>&quot;7th Liquid Matter Conference&quot; (Lund, Sweden, 27 June-1 July). Poster on publications (14) and (15).</p>
+
+<h2>year 2009</h2>
+
+<p>&quot;Long-range Interactions in Classical and Quantum Physics&quot; (Stellenbosch, South Africa, 16-27 November). Invited talk on publication (17).</p>
+
+<h2>year 2010</h2>
+
+<p>&quot;Statphys24&quot; (Cairns, Australia, 19-23 July). Oral presentation on publication (17).<br>
+  &quot;35th Conference of the Middle European Cooperation in Statistical Physics&quot; (Abbaye des Promontres, Pont-a-Mousson, France, 15-19 March). Poster on publication (16), (18), and (20).</p>
+
+<h2>year 2011</h2>
+
+<p>&quot;8th Liquid Matter Conference&quot; (Vienna, Austria, 6-10 September). Poster on publications (23) and (24).<br>
+&quot;Equilibration and Equilibrium 2nd Stellenbosch Workshop on Statistical Physics&quot; (Stellenbosch, South Africa 7-18 March). Invited talk on publication (24).</p>
+
+<h2>year 2012</h2>
+
+<p>&quot;XCVIII Congresso Nazionale SIF&quot; (Napoli, Italy, 17-21 September). Oral presentation on publication (30).</p>
+
+<h2>year 2013</h2>
+
+<p>&quot;38th Conference of the Middle European Cooperation in Statistical Physics&quot; (ICTP, Trieste, Italy, 25-27 March). Poster on publications (34) and (39).<br>
+&quot;Italian National Conference on Condensed Matter Physics (FisMat2013)&quot; (Milano, Italy, 9-13 September). Oral presentation on publication (41).<br>
+&quot;XCIX Congresso Nazionale SIF&quot; (Trieste, Italy, 23-27 September). Abstract on publication (35) and (40).</p>
+
+<h2>year 2014</h2>
+
+<p>&quot;Sigma-Phi-2014&quot; (Rhodes, Greece, 7-11 July). Oral presentation on publications (43) and (44).</p>
+
+<h2>year 2015</h2>
+
+<p>&quot;Italian National Conference on Condensed Matter Physics (FisMat2015)&quot; (Palermo, Italy, 28 September-2 October). Oral presentation on publication (46).</p>
+
+<hr>
+<a target="_blank" name="books"></a>
+<h2>Books</h2>
+<br>
+
+<h2>year 2012</h2>
+
+<p>
+1. &quot;<a target="_blank" href="theses/laurea-thesis.pdf"><em>Regole di somma in un gas di elettroni stratificato</em></a>&quot;, <strong>Riccardo Fantoni</strong>, ISBN:978-88-91015-39-6<br>
+2. &quot;<a target="_blank" href="theses/phd-thesis.pdf"><em>Classical liquids: exact results, integral equations theory, and Monte Carlo simulations</em></a>&quot;, <strong>Riccardo Fantoni</strong>, ISBN:978-88-91015-43-3
+</p>
+
+<h2>year 2013</h2>
+
+3. &quot;<em>The Janus Fluid</em>&quot;, <strong>Riccardo Fantoni</strong>, <a target="_blank" href="http://dx.doi.org/10.1007/978-3-319-00407-5">SpringerBriefs in Physics (2013) IX, ISBN 978-3-319-00406-8 (Print) 978-3-319-00407-5 (Online)</a>
+
+<hr>
+<h2>Book chapters</h2>
+<hr>
+
+
+<!-- #################################################################################################### -->
+					</div><!-- .entry-content -->
+					
+				</article><!-- #post-1 -->
+	
+<section class="recent-posts">
+<h1 class="showcase-heading">Recent Posts</h1>
+</section><!-- .recent-posts -->
+
+<div class="widget-area" role="complementary">
+<?php
+$last_mod = filemtime("publications.html");
+print("Last Edited on ");
+print(date("m/j/y h:i", $last_mod));
+?>
+</div><!-- .widget-area -->
+
+			</div><!-- #content -->
+			
+		</div><!-- #primary -->
+		
+	</div><!-- #main -->
+
+<footer id="colophon" role="contentinfo">
+	<div id="site-generator">
+	<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+	</div>
+</footer><!-- #colophon -->
+
+</div><!-- #page -->
+
+
+</body>
+</html>

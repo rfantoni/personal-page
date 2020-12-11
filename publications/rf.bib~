@@ -1,0 +1,713 @@
+@Article{Fantoni95a,
+  author = 	 {R. Fantoni and M. P. Tosi},
+  title = 	 {Decay of correlations and related sum rules in a layered classical plasma},
+  journal = 	 {Nuovo Cimento},
+  year = 	 {1995},
+  OPTkey = 	 {},
+  volume = 	 {17D},
+  OPTnumber = 	 {},
+  pages = 	 {155},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni95b,
+  author = 	 {R. Fantoni and M. P. Tosi},
+  title = 	 {Coordinate space form of interacting reference response function of d-dimensional jellium},
+  journal = 	 {Nuovo Cimento},
+  year = 	 {1995},
+  OPTkey = 	 {},
+  volume = 	 {17D},
+  OPTnumber = 	 {},
+  pages = 	 {1165},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni96,
+  author = 	 {R. Fantoni and M. P. Tosi},
+  title = 	 {Some properties of short-range correlations for electrons in quantum wires},
+  journal = 	 {Physica B},
+  year = 	 {1996},
+  OPTkey = 	 {},
+  volume = 	 {217},
+  OPTnumber = 	 {},
+  pages = 	 {35},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni03a,
+  author = 	 {R. Fantoni and B. Jancovici and G. T\'ellez},
+  title = 	 {Pressures for a One-Component Plasma on a Pseudosphere},
+  journal = 	 {J. Stat. Phys.},
+  year = 	 {2003},
+  OPTkey = 	 {},
+  volume = 	 {112},
+  OPTnumber = 	 {},
+  pages = 	 {27},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni03b,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Generating functionals, consistency, and uniqueness in the integral equation theory of liquids},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2003},
+  OPTkey = 	 {},
+  volume = 	 {119},
+  OPTnumber = 	 {},
+  pages = 	 {3810},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni03c,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Stability of the iterative solutions of integral equations as one phase freezing criterion},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2003},
+  OPTkey = 	 {},
+  volume = 	 {68},
+  OPTnumber = 	 {},
+  pages = 	 {046104},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni04a,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Direct correlation functions of the Widom-Rowlinson model},
+  journal = 	 {Physica A},
+  year = 	 {2004},
+  OPTkey = 	 {},
+  volume = 	 {332},
+  OPTnumber = 	 {},
+  pages = 	 {349},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni04b,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Computer simulation study of the closure relations in hard sphere fluids},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2004},
+  OPTkey = 	 {},
+  volume = 	 {120},
+  OPTnumber = 	 {},
+  pages = 	 {10681},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni05a,
+  author = 	 {R. Fantoni and D. Gazzillo and A. Giacometti},
+  title = 	 {Stability boundaries, percolation threshold, and two phase coexistence for polydisperse fluids of adhesive colloidal particles},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2005},
+  OPTkey = 	 {},
+  volume = 	 {122},
+  OPTnumber = 	 {},
+  pages = 	 {034901},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni05b,
+  author = 	 {R. Fantoni and D. Gazzillo and A. Giacometti},
+  title = 	 {The thermodynamic instabilities of a binary mixture of sticky hard spheres},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2005},
+  OPTkey = 	 {},
+  volume = 	 {72},
+  OPTnumber = 	 {},
+  pages = 	 {011503},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni06a,
+  author = 	 {D. Gazzillo and A. Giacometti and R. Fantoni and P. Sollich},
+  title = 	 {Multicomponent adhesive hard sphere models and short-ranged attractive interactions in colloidal or micellar solutions},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {74},
+  OPTnumber = 	 {},
+  pages = 	 {051407},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni06b,
+  author = 	 {D. Gazzillo and R. Fantoni and A. Giacometti},
+  title = 	 {Phase behavior of polydisperse sticky hard spheres: analytical solutions and perturbation theory},
+  journal = 	 {Mol. Phys.},
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {104},
+  OPTnumber = 	 {},
+  pages = 	 {3451},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni06c,
+  author = 	 {R. Fantoni and D. Gazzillo and A. Giacometti and P. Sollich},
+  title = 	 {Phase behavior of weakly polydisperse sticky hard spheres: Perturbation theory for the Percus-Yevick solution},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {125},
+  OPTnumber = 	 {},
+  pages = 	 {164504},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni07,
+  author = 	 {R. Fantoni and D. Gazzillo and A. Giacometti and M. A. Miller and G. Pastore},
+  title = 	 {Patchy sticky hard spheres: analytical study and Monte Carlo simulations},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2007},
+  OPTkey = 	 {},
+  volume = 	 {127},
+  OPTnumber = 	 {},
+  pages = 	 {234507},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni08a,
+  author = 	 {D. Gazzillo and R. Fantoni and A. Giacometti},
+  title = 	 {Fluids of spherical molecules with dipolarlike nonuniform adhesion: an analytically solvable anisotropic model},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {78},
+  OPTnumber = 	 {},
+  pages = 	 {021201},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni08b,
+  author = 	 {A. Santos and R. Fantoni and A. Giacometti},
+  title = 	 {Penetrable Square-Well fluids: exact results in one dimension },
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {77},
+  OPTnumber = 	 {},
+  pages = 	 {051206},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni08c,
+  author = 	 {R. Fantoni and G. Tell\'ez},
+  title = 	 {Two dimensional one-component plasma on a Flamm's paraboloid},
+  journal = 	 {J. Stat. Phys.},
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {133},
+  OPTnumber = 	 {},
+  pages = 	 {449},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni09a,
+  author = 	 {R. Fantoni and A. Giacometti and A. Malijevsk\'y and A. Santos},
+  title = 	 {Penetrable-Square-Well fluids: Analytical study and Monte Carlo simulations},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2009},
+  OPTkey = 	 {},
+  volume = 	 {131},
+  OPTnumber = 	 {},
+  pages = 	 {124106},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni09b,
+  author = 	 {D. Gazzillo and R. Fantoni and A. Giacometti},
+  title = 	 {Local orientational ordering in fluids of spherical molecules with dipolar-like anisotropic adhesion},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2009},
+  OPTkey = 	 {},
+  volume = 	 {80},
+  OPTnumber = 	 {},
+  pages = 	 {061207},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni09c,
+  author = 	 {A. Santos and R. Fantoni and A. Giacometti},
+  title = 	 {Thermodynamic consistency of energy and virial routes: An exact proof within the linearized Debye-Hückel theory},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2009},
+  OPTkey = 	 {},
+  volume = 	 {131},
+  OPTnumber = 	 {},
+  pages = 	 {181105},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni10a,
+  author = 	 {R. Fantoni and A. Giacometti and A. Malijevsk\'y and A. Santos},
+  title = 	 {A Numerical Test of a High-Penetrability Approximation for the One-Dimensional Penetrable-Square-Well Model},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2010},
+  OPTkey = 	 {},
+  volume = 	 {133},
+  OPTnumber = 	 {},
+  pages = 	 {024101},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni10b,
+  author = 	 {R. Fantoni},
+  title = 	 {Non existence of a phase transition for the Penetrable Square Well model in one dimension},
+  journal = 	 {J. Stat. Mech.},
+  year = 	 {2010},
+  OPTkey = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  pages = 	 {P07030},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni11a,
+  author = 	 {R. Fantoni and A. Giacometti and F. Sciortino and G. Pastore},
+  title = 	 {Cluster theory of Janus particles},
+  journal = 	 {Soft Matter},
+  year = 	 {2011},
+  OPTkey = 	 {},
+  volume = 	 {7},
+  OPTnumber = 	 {},
+  pages = 	 {2419},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni11b,
+  author = 	 {R. Fantoni and A. Malijevsk\'y and A. Santos, and A. Giacometti},
+  title = 	 {Phase diagram of the penetrable square well-model},
+  journal = 	 {Europhys. Lett.},
+  year = 	 {2011},
+  OPTkey = 	 {},
+  volume = 	 {93},
+  OPTnumber = 	 {},
+  pages = 	 {26002},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni11c,
+  author = 	 {R. Fantoni and K. K. M\"uller-Nedebock},
+  title = 	 {Field theoretical approach to a dense polymer with an ideal binary mixture of clustering centers},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2011},
+  OPTkey = 	 {},
+  volume = 	 {84},
+  OPTnumber = 	 {},
+  pages = 	 {011808},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni11d,
+  author = 	 {R. Fantoni and A. Malijevsk\'y and A. Santos and A. Giacometti},
+  title = 	 {The penetrable square-well model: extensive versus non-extensive phases},
+  journal = 	 {Mol. Phys.},
+  year = 	 {2011},
+  OPTkey = 	 {},
+  volume = 	 {109},
+  OPTnumber = 	 {},
+  pages = 	 {2723},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni11e,
+  author = 	 {R. Fantoni and A. Santos},
+  title = 	 {Nonadditive hard-sphere fuid mixtures. A simple analytical theory},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2011},
+  OPTkey = 	 {},
+  volume = 	 {84},
+  OPTnumber = 	 {},
+  pages = 	 {041201},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni12a,
+  author = 	 {R. Fantoni},
+  title = 	 {A cluster theory for a Janus fluid},
+  journal = 	 {Eur. Phys. J. B},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  volume = 	 {85},
+  OPTnumber = 	 {},
+  pages = 	 {108},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni12b,
+  author = 	 {R. Fantoni},
+  title = 	 {Two component plasma in a Flamm's paraboloid},
+  journal = 	 {J. Stat. Mech.},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  pages = 	 {P04015},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni12c,
+  author = 	 {R. Fantoni and J. W. O. Salari and B. Klumperman},
+  title = 	 {The structure of colloidosomes with tunable particle density: Simulation vs experiment},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  volume = 	 {85},
+  OPTnumber = 	 {},
+  pages = 	 {061404},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni12d,
+  author = 	 {R. Fantoni},
+  title = 	 {Localization of acoustic polarons at low temperatures: A path integral Monte Carlo approach},
+  journal = 	 {Phys. Rev. B},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  volume = 	 {86},
+  OPTnumber = 	 {},
+  pages = 	 {144304},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni12e,
+  author = 	 {R. Fantoni},
+  title = 	 {The density of a fluid on a curved surface},
+  journal = 	 {J. Stat. Mech.},
+  year = 	 {2012},
+  OPTkey = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  pages = 	 {P10024},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13a,
+  author = 	 {R. Fantoni},
+  title = 	 {Low temperature acoustic polaron localization},
+  journal = 	 {Physica B},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {412},
+  OPTnumber = 	 {},
+  pages = 	 {112},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13b,
+  author = 	 {R. Fantoni},
+  title = 	 {Hellmann and Feynman theorem versus diffusion Monte Carlo experiment},
+  journal = 	 {Solid State Comm.},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {159},
+  OPTnumber = 	 {},
+  pages = 	 {106},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13c,
+  author = 	 {M. A. G. Maestre and R. Fantoni and A. Giacometti and A. Santos},
+  title = 	 {Janus fluid with fixed patch orientations: Theory and simulations},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {138},
+  OPTnumber = 	 {},
+  pages = 	 {094904},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13d,
+  author = 	 {R. Fantoni and A. Santos},
+  title = 	 {Multicomponent fluid of nonadditive hard spheres near a wall},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {87},
+  OPTnumber = 	 {},
+  pages = 	 {042102},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13e,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {The restricted primitive model of ionic fluids with nonadditive diameters},
+  journal = 	 {Europhys. Lett.},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {101},
+  OPTnumber = 	 {},
+  pages = 	 {46003},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13f,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Monte Carlo simulation of the nonadditive restricted primitive model of ionic fluids: Phase diagram and clustering},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {87},
+  OPTnumber = 	 {},
+  pages = 	 {052303},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13g,
+  author = 	 {R. Fantoni},
+  title = 	 {Radial distribution function in a diffusion Monte Carlo simulation of a Fermion fluid between the ideal gas and the Jellium model},
+  journal = 	 {Eur. Phys. J. B},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {86},
+  OPTnumber = 	 {},
+  pages = 	 {286},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni13h,
+  author = 	 {R. Fantoni and A. Giacometti and M. A. G. Maestre and A. Santos},
+  title = 	 {Phase diagrams of Janus fluids with up-down constrained orientations},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2013},
+  OPTkey = 	 {},
+  volume = 	 {139},
+  OPTnumber = 	 {},
+  pages = 	 {174902},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni14a,
+  author = 	 {R. Fantoni and A. Santos},
+  title = 	 {Depletion force in the infinite-dilution limit in a solvent of nonadditive hard spheres},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2014},
+  OPTkey = 	 {},
+  volume = 	 {140},
+  OPTnumber = 	 {},
+  pages = 	 {244513},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni14b,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Wertheim and Bjerrum-Tani-Henderson theories for associating fluids: A critical assessment},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2014},
+  OPTkey = 	 {},
+  volume = 	 {141},
+  OPTnumber = 	 {},
+  pages = 	 {074108},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni14c,
+  author = 	 {R. Fantoni},
+  title = 	 {Gas-liquid coexistence for the bosons square-well fluid and the $^4$He binodal anomaly},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2014},
+  OPTkey = 	 {},
+  volume = 	 {90},
+  OPTnumber = 	 {},
+  pages = 	 {020102(R)},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni14d,
+  author = 	 {R. Fantoni and S. Moroni},
+  title = 	 {Quantum Gibbs ensemble Monte Carlo},
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2014},
+  OPTkey = 	 {},
+  volume = 	 {141},
+  OPTnumber = 	 {},
+  pages = 	 {114110},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni15a,
+  author = 	 {R. Fantoni and A. Giacometti and A. Santos},
+  title = 	 {Bridging and depletion mechanisms in colloid-colloid effective interactions: A reentrant phase diagram}, 
+  journal = 	 {J. Chem. Phys.},
+  year = 	 {2015},
+  OPTkey = 	 {},
+  volume = 	 {142},
+  OPTnumber = 	 {},
+  pages = 	 {224905},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni15b,
+  author = 	 {R. Fantoni},
+  title = 	 {Two-phase coexistence for hydrogen-helium mixtures},
+  journal = 	 {Phys. Rev. E},
+  year = 	 {2015},
+  OPTkey = 	 {},
+  volume = 	 {92},
+  OPTnumber = 	 {},
+  pages = 	 {012133},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni15c,
+  author = 	 {R. Fantoni and G. Pastore},
+  title = 	 {Wertheim perturbation theory: thermodynamics and structure of patchy colloids},
+  journal = 	 {Mol. Phys.},
+  year = 	 {2015},
+  OPTkey = 	 {},
+  volume = 	 {113},
+  OPTnumber = 	 {},
+  pages = 	 {2593},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni16a,
+  author = 	 {R. Fantoni},
+  title = 	 {Supercooled superfluids in Monte Carlo simulations}
+  journal = 	 {Eur. Phys. J. B},
+  year = 	 {2016},
+  OPTkey = 	 {},
+  volume = 	 {89},
+  OPTnumber = 	 {},
+  pages = 	 {1},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni16b,
+  author = 	 {A. Alastuey and R. Fantoni},
+  title = 	 {Fourth moment sum rule for the charge correlations of a two-component classical plasma}
+  journal = 	 {J. Stat. Phys.},
+  year = 	 {2016},
+  OPTkey = 	 {},
+  volume = 	 {163},
+  OPTnumber = 	 {},
+  pages = 	 {887},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni16c,
+  author = 	 {R. Fantoni},
+  title = 	 {The Square-Shoulder-Asakura-Oosawa model}
+  journal = 	 {Physica A},
+  year = 	 {2016},
+  OPTkey = 	 {},
+  volume = 	 {457},
+  OPTnumber = 	 {},
+  pages = 	 {406},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Fantoni16d,
+  author = 	 {R. Fantoni},
+  title = 	 {Exact results for one dimensional fluids through functional integration}
+  journal = 	 {J. Stat. Phys.},
+  year = 	 {2016},
+  OPTkey = 	 {},
+  volume = 	 {},
+  OPTnumber = 	 {},
+  pages = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
