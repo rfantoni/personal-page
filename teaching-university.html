@@ -24,15 +24,16 @@
 <link rel="stylesheet" type="text/css" media="all" href="./css/style.css">
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-color: #e2e2e2; background-image: url('./pictures/rough-beige-paper-texture.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+div.custom { box-shadow: 3px 3px 10px 10px #999999; padding: 50px 50px; }
 </style>
 <script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="./js/jquery.cycle.lite.js"></script>
+<script type="text/javascript" src="./js/jquery.cycle2.min.js"></script>
 <script type="text/javascript">
 $(function() {
     $('#slideshow1').cycle();
 	
-	$('#slideshow3').cycle({
+	  $('#slideshow3').cycle({
         delay: 5000,
         speed: 1000,
     });
@@ -61,10 +62,10 @@ $(function() {
 .pics { height: 293px; width: 100%; padding:0; margin:0 ; overflow: hidden}
 </style>
 
-<div id="slideshow3" class="pics">
-<a href="./index.html"><img src="./pictures/water-drops-liquids-background-header.jpg" /></a>
-<a href="./index.html"><img src="./pictures/mc01.jpg" /></a>
-<a href="./index.html"><img src="./pictures/mc06.jpg" /></a>
+<div class="cycle-slideshow">
+<img src="./pictures/water-drops-liquids-background-header.jpg">
+<img src="./pictures/mc01.jpg">
+<img src="./pictures/mc06.jpg">
 </div>
 
   		<form method="get" id="searchform" action="http://www.google.com/search">
