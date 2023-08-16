@@ -968,6 +968,13 @@ $last_mod = filemtime("./research/rg.pdf");
 print("RG notes last edited on ");
 print(date("r", $last_mod));
 ?>
+
+<p>Last Modified on</p>
+<p id="demo"></p>
+<script>
+const date = new Date(document.lastModified);
+document.getElementById("demo").innerHTML = date;
+</script>
 </div><!-- .widget-area -->
 
 			</div><!-- #content -->

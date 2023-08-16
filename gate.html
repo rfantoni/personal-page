@@ -303,6 +303,13 @@ $last_mod = filemtime("gate.html");
 print("Last Edited on ");
 print(date("m/j/y h:i", $last_mod));
 ?>
+
+<p>Last Modified on</p>
+<p id="demo"></p>
+<script>
+const date = new Date(document.lastModified);
+document.getElementById("demo").innerHTML = date;
+</script>
 </div><!-- .widget-area -->
 
 			</div><!-- #content -->
