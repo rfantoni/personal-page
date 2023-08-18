@@ -971,6 +971,7 @@ print(date("r", $last_mod));
 
 <p>Last Modified on</p>
 <p id="demo"></p>
+<br><br>
 <p>Notes on Jellium</p>
 <p id="demo1"></p>
 <p>Notes on Quantum Monte Carlo</p>
@@ -981,6 +982,8 @@ print(date("r", $last_mod));
 <p id="demo4"></p>
 <p>Notes on angular momentum</p>
 <p id="demo5"></p>
+<p>Notes on Classical and Quantum Fluids</p>
+<p id="demo6"></p>
 <script>
 const date = new Date(document.lastModified);
 document.getElementById("demo").innerHTML = date;
@@ -1038,6 +1041,17 @@ xhttp.onreadystatechange = function() {
   }
 };
 xhttp.open("GET", "./research/am.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo6").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/tema.pdf", true);
 xhttp.send();
 </script>
 </div><!-- .widget-area -->
