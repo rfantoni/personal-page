@@ -268,9 +268,23 @@ $(function() {
 <br><br>
 <h4>Soccer</h4>
 
-<iframe id="sofa-standings-embed-33-42415" width="100%" height="717"    src="https://www.sofascore.com/tournament/33/42415/standings/tables/embed" frameborder="0" scrolling="no" style="height:717px!important">  </iframe>  <script>    (function (el) {      window.addEventListener("message", (event) => {        if (event.origin.startsWith("https://www.sofascore")) {          if (el.id === event.data.id) {            el.style.height = event.data.height + "px";          }        }      });    })(document.getElementById("sofa-standings-embed-33-37475"));    </script>  <div style="font-size:12px;font-family:Arial,sans-serif">Standings provided by <a target="_blank" href="https://www.sofascore.com/">SofaScore LiveScore</a></div>  <script type="text/javascript" src="https://www.sofascore.com/bundles/sofascoreweb/js/bin/util/embed.min.js">  </script>
+<!--<iframe id="sofa-standings-embed-33-42415" width="100%" height="717"    src="https://www.sofascore.com/tournament/33/42415/standings/tables/embed" frameborder="0" scrolling="no" style="height:717px!important">  </iframe>  <script>    (function (el) {      window.addEventListener("message", (event) => {        if (event.origin.startsWith("https://www.sofascore")) {          if (el.id === event.data.id) {            el.style.height = event.data.height + "px";          }        }      });    })(document.getElementById("sofa-standings-embed-33-37475"));    </script>  <div style="font-size:12px;font-family:Arial,sans-serif">Standings provided by <a target="_blank" href="https://www.sofascore.com/">SofaScore LiveScore</a></div>  <script type="text/javascript" src="https://www.sofascore.com/bundles/sofascoreweb/js/bin/util/embed.min.js">  </script>
+-->
+<iframe id="sofa-standings-embed-33-52760" src="https://widgets.sofascore.com/embed/tournament/33/season/52760/standings/Serie%20A%2023%2F24?widgetTitle=Serie A 23/24&showCompetitionLogo=true" style=height:794px!important;max-width:620px!important;width:100%!important; frameborder="0" scrolling="no"></iframe>
+    <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+      Standings provided by <a target="_blank" href="https://www.sofascore.com/">Sofascore</a>
+    </div>
+<iframe id="sofa-cupTree-embed-328-53505-42612" src="https://widgets.sofascore.com/embed/unique-tournament/328/season/53505/cuptree/42612?widgetTitle=Coppa Italia 2023/2024&showCompetitionLogo=true" style=height:689px!important;max-width:620px!important;width:100%!important; frameborder="0" scrolling="yes"></iframe>
+    <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+      Cup tree provided by <a target="_blank" href="https://www.sofascore.com/">Sofascore</a>
+    </div>    
+<iframe id="sofa-cupTree-embed-7-52162-42262" src="https://widgets.sofascore.com/embed/unique-tournament/7/season/52162/cuptree/42262?widgetTitle=UEFA Champions League 23/24, Preliminary Round&showCompetitionLogo=true" style=height:380px!important;max-width:620px!important;width:100%!important; frameborder="0" scrolling="yes"></iframe>
+    <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+      Cup tree provided by <a target="_blank" href="https://www.sofascore.com/">Sofascore</a>
+    </div>    
 <br><br>
 
+<!--
 <h2>Character Counter</h2>
 
 <form method="POST">
@@ -290,7 +304,51 @@ formcontent=what.form.charcount.value
 what.form.displaycount.value=formcontent.length
 }
 </script>
+-->  
+   
+<h2>Character and Word Counter</h2>
+      
+        <div>
+          <h5 id="word-count">0</h5>
+          <p>Words</p>
+        </div>
+        <div>
+          <h5 id="charac-count">0</h5>
+          <p>Characters</p>
+        </div>
+      
+        <textarea
+          id="input-textarea"
+          rows="12"
+          placeholder="Start Typing here..."
+        ></textarea>
 
+<script type="text/javascript">
+    let inputTextArea = document.getElementById("input-textarea");
+    let characCount = document.getElementById("charac-count");
+    let wordCount = document.getElementById("word-count");
+
+    inputTextArea.addEventListener("input", () => {
+      characCount.textContent = inputTextArea.value.length;
+      let txt = inputTextArea.value.trim();
+      wordCount.textContent = txt.split(/\s+/).filter((item) => item).length;
+    });
+</script>
+
+<style>
+textarea {
+width: 100%;
+border: none;
+resize: none;
+outline: none;
+font-size: 16px;
+line-height: 28px;
+padding: 10px;
+max-height: 280px;
+color: #0e101a;
+box-shadow: 0 20px 65px rgba(61, 139, 190, 0.33);
+}
+</style>
 
 <!-- #################################################################################################### -->
 					</div><!-- .entry-content -->
