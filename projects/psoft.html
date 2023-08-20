@@ -20,7 +20,7 @@
 <meta name="viewport" content="width=device-width">
 <title>projects | Riccardo Fantoni, Dr.</title>
 
-<link rel="icon" href="./pictures/favicon.ico" type="image/x-icon"> 
+<link rel="icon" href="../pictures/favicon.ico" type="image/x-icon"> 
 <link rel="stylesheet" type="text/css" media="all" href="../css/style.css">
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-color: #e2e2e2; background-image: url('../pictures/rough-beige-paper-texture.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
@@ -30,13 +30,29 @@ body.custom-background { background-color: #e2e2e2; background-image: url('../pi
 
 <body class="page-template page-template-showcase-php custom-background single-author two-column right-sidebar">
 <div id="page" class="hfeed">
-<center>    
+<div id="main">
+
+			<div id="content" role="main">
+
+				<article id="post-1" class="post-1 page type-page status-publish entry intro">
+
+<!-- #################################################################################################### -->    
+<center>
 <h1>Soft Matter</h1>
 </center>
 <br><br><br>
 
-
-
+<!-- #################################################################################################### -->
+<hr>
+<p>Last Modified on</p>
+<p id="demo"></p>
+<script>
+const date = new Date(document.lastModified);
+document.getElementById("demo").innerHTML = date;
+</script>
+</article>
+</div>
+</div>
 </div>
 </body>
 </html>    
