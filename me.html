@@ -190,7 +190,9 @@ e-mail   : riccardofantoni@nauticogalvani.com<br>
 </p>
 <hr color="red">
 
+<!-- Google Charts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
     <script type="text/javascript">
       // Load Charts and the corechart package.
       google.charts.load('current', {'packages':['calendar','corechart']});
@@ -204,14 +206,17 @@ e-mail   : riccardofantoni@nauticogalvani.com<br>
        dataTable.addColumn({ type: 'number', id: 'Won/Loss' });
        dataTable.addRows([
 	        [ new Date(2023, 7, 30), +10 ],
-									[ new Date(2023, 9, 18), -5 ],
-	        [ new Date(2023, 3, 21), -10 ]
+									[ new Date(2023, 9, 18), -0 ],
+	        [ new Date(2023, 3, 21), -10 ],
+									[ new Date(2024, 7, 30), +10 ],
+									[ new Date(2024, 9, 18), -0 ],
+									[ new Date(2024, 3, 21), -10 ]
        ]);
 
        var options = {
-         title: "Calendar",
+         //title: "Calendar",
          height: 300,
-		 calendar: { cellSize: 14 },
+		       calendar: { cellSize: 14 },
        };
 	   
        var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
@@ -229,16 +234,16 @@ e-mail   : riccardofantoni@nauticogalvani.com<br>
        ]);
 
        var options = {
-         title: 'Publications',
+         //title: 'Publications Topic',
          pieHole: 0.6,
-		 titleTextStyle: { color: '#808080',
-		                   fontName: 'Arial, Helvetica, sans-serif',
+		       titleTextStyle: { color: '#808080',
+		                         fontName: 'Arial, Helvetica, sans-serif',
                            fontSize: '26',
-						   bold: '0'},
-		 legend: {position: 'bottom', textStyle: { color: '#808080',
-                           fontName: 'Arial, Helvetica, sans-serif',
-                           fontSize: '20',
-                           bold: '0' }}				   
+						                     bold: '0'},
+		       legend: {position: 'bottom', textStyle: { color: '#808080',
+                                                   fontName: 'Arial, Helvetica, sans-serif',
+                                                   fontSize: '20',
+                                                   bold: '0' }}				   
        };
 
        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
@@ -246,12 +251,48 @@ e-mail   : riccardofantoni@nauticogalvani.com<br>
       }   
     </script>
 
+<script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['Spain', 14],
+          ['United States', 9],
+          ['Colombia', 2],
+          ['United Kingdom', 1],
+          ['France', 2],
+          ['Italy', 40],
+										['South Africa', 1],
+										['Czech Republic', 2],
+										['Germany', 2],
+										['Netherlands', 1]
+        ]);
+
+        var options = {
+									colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
+									};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+        chart.draw(data, options);
+      }
+    </script>
 <br>
-<div id="calendar_basic" style="width: 100%; height: 350px;"></div>
+<h2>Birthdays</h2>
+<div id="calendar_basic" style="width: 100%; height: 300px;"></div>
 <hr>
+<h2>Publications by Topic</h2>
 <div id="donutchart" style="width: 100%; height: 500px;"></div>	
 <hr>
+<h2>Publications by Geographical Region</h2>
+<div id="regions_div" style="width: 100%; height: 500px;"></div>
+<hr>
 <br>
+
+<!-- Logo          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 <style>
 .t {width: 100% !important;}
@@ -280,6 +321,8 @@ e-mail   : riccardofantoni@nauticogalvani.com<br>
 </table>  
 <br><br>
 <h2>Send e-mail to <strong>rfantoni3@gmail.com</strong>:</h2>
+
+<!-- Mail To       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 <form action="MAILTO:rfantoni3@gmail.com?subject=from RF homepage" method="post" enctype="text/plain">
 Name:<br>
