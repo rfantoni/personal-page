@@ -216,9 +216,62 @@ print(date("r", $last_mod));
 
 <p>Last Modified on</p>
 <p id="demo"></p>
+<br><br>
+<p>CV</p>
+<p id="demo1"></p>
+<p>Long CV</p>
+<p id="demo2"></p>
+<p>Short CV</p>
+<p id="demo3"></p>
+<p>Europass</p>
+<p id="demo4"></p>
 <script>
 const date = new Date(document.lastModified);
 document.getElementById("demo").innerHTML = date;
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo1").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./cv/curriculum.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo2").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./cv/cv-fantoni.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo3").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./cv/short-cv.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo4").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./cv/CV - Riccardo Fantoni.pdf", true);
+xhttp.send();
 </script>
 </div><!-- .widget-area -->
 
