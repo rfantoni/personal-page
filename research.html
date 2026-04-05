@@ -1182,6 +1182,8 @@ print(date("r", $last_mod));
 <p>Last Modified on</p>
 <p id="demo"></p>
 <br><br>
+<p>Notes on Classical and Quantum Fluids</p>
+<p id="demo0"></p>
 <p>Notes on Jellium</p>
 <p id="demo1"></p>
 <p>Notes on Quantum Monte Carlo</p>
@@ -1192,11 +1194,33 @@ print(date("r", $last_mod));
 <p id="demo4"></p>
 <p>Notes on angular momentum</p>
 <p id="demo5"></p>
-<p>Notes on Classical and Quantum Fluids</p>
+<p>Notes on differential Geometry</p>
 <p id="demo6"></p>
+<p>Notes on Many Body in GR</p>
+<p id="demo7"></p>
+<p>Notes on Conservation Laws</p>
+<p id="demo8"></p>
+<p>Notes on PIMC</p>
+<p id="demo9"></p>
+<p>Notes on 2D-OCP</p>
+<p id="demo10"></p>
+<p>Notes on Probability</p>
+<p id="demo11"></p>
+
 <script>
 const date = new Date(document.lastModified);
 document.getElementById("demo").innerHTML = date;
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo0").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/tema.pdf", true);
+xhttp.send();
 </script>
 <script>
 var xhttp = new XMLHttpRequest();
@@ -1261,7 +1285,62 @@ xhttp.onreadystatechange = function() {
     this.getAllResponseHeaders();
   }
 };
-xhttp.open("GET", "./research/tema.pdf", true);
+xhttp.open("GET", "./research/dg.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo7").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/mbgr.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo8").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/cl.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo9").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/superf.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo10").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/coulog.pdf", true);
+xhttp.send();
+</script>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo11").innerHTML =
+    this.getAllResponseHeaders();
+  }
+};
+xhttp.open("GET", "./research/prob.pdf", true);
 xhttp.send();
 </script>
 </div><!-- .widget-area -->
