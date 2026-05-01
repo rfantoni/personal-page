@@ -145,23 +145,22 @@ quantities, the superfluid fraction, the fluid phase coexistence.</p>
 requires the formulation of some approximation in the numerical calculation. So that even 
 computationally we are still unable to extract exact statistical mechanical properties for fermions.</p>
 
-<p class=in>Another limitation of the path integral Monte Carlo is that, whereas it is able to describe
-the molecules formation from the constituent atomic species, it is unable to describe the 
-<a href="https://doi.org/10.1063/5.0219405" target="_blank">atom formation</a> 
-from the constituent electrons and nuclei, unless for an highly diluted system. This is due to the fact that 
-since the mass of an electron is three orders of magnitude smaller than the one of the nucleous the 
-degeneracy temperature of the electons is three orders of magnitude bigger than the one of the nuclei,
-at a given density. Therefore it is very unlikely that an electron, with a world-line with many particle 
-exchanges, will bind to a nucleous, which has a world-line with many less particle exchanges.</p>
+<p class=in>Nonetheless path integral Monte Carlo is able to describe both atoms and molecules
+formation from the <a href="https://doi.org/10.1063/5.0219405" target="_blank">soup of the constituent
+electrons and nuclei</a>. This shows that the laws of quantum statistical physics and of Coulomb are
+enough to explain most of the matter we see around us.</p>
 
 <p class=in>In <a href="http://people.physics.illinois.edu/Ceperley/papers/156.pdf" target="_blank">
 simulations</a> of systems at room temperature or below and densities n such that
-T&nbsp;&lt;&nbsp;T<sub>F</sub>&nbsp;&prop;&nbsp;n<sup>2/3</sup>&#8463;<sup>2</sup>/mk<sub>B</sub>, electrons
-are to a good approximation
-degenerate, and in most cases the nuclei can be treated as classical. In those cases, there exists
+T&nbsp;&lt;&nbsp;T<sub>F</sub>&nbsp;&prop;&nbsp;n<sup>2/3</sup>&#8463;<sup>2</sup>/m<sub>e</sub>k<sub>B</sub>,
+electrons are to a good approximation degenerate, and in most cases the nuclei can be treated as classical
+since m<sub>p</sub>/m<sub>e</sub>&#8773;2000 where m<sub>p</sub> is the proton mass and m<sub>e</sub> the
+electron mass. In those cases, there exists
 an effective potential between the nuclei due to the electrons. Knowing this potential, one could solve most
 problems of chemical structure with simulation. But it needs to be computed very accurately because the natural
-electronic energy scale is the Hartree, me<sup>4</sup>/&#8463;<sup>2</sup>), or Rydberg and chemical energies
+electronic energy scale is the Hartree, m<sub>e</sub>e<sup>4</sup>/&#8463;<sup>2</sup>, or Rydberg,
+e<sup>2</sup>/2a<sub>B</sub> with a<sub>B</sub>=&#8463;<sup>2</sup>/m<sub>e</sub>e<sup>2</sup> Bohr radius,
+and chemical energies
 are needed to better than k<sub>B</sub>T. This requires an accuracy of one part in 10<sup>3</sup> for a
 hydrogen atom. Higher relative accuracy is needed for heavier atoms. If T&gt;T<sub>F</sub> for fixed
 nuclei spatial positions it is necessary to perform a PIMC on the electrons component and use the result
